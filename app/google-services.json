@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "252311923118",
+    "firebase_url": "https://sanslokerpenyimpananumun-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "sanslokerpenyimpananumun",
+    "storage_bucket": "sanslokerpenyimpananumun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252311923118:android:ce6eacb4d22ac17899003f",
+        "android_client_info": {
+          "package_name": "com.example.smartlokerservicejava"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252311923118-i1rf8vqcrpepfk3toau40jkpnjlit8c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgUshYhhnlC0pE86ab0ujNjXl2VjNAtSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252311923118-i1rf8vqcrpepfk3toau40jkpnjlit8c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252311923118:android:48e9e6b601062a9199003f",
+        "android_client_info": {
+          "package_name": "com.example.smartlokerservicejavabetaver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252311923118-i1rf8vqcrpepfk3toau40jkpnjlit8c1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgUshYhhnlC0pE86ab0ujNjXl2VjNAtSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252311923118-i1rf8vqcrpepfk3toau40jkpnjlit8c1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

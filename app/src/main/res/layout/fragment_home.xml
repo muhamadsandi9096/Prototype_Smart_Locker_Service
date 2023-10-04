@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/hometiga"
+    tools:context=".Home">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/kotak1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/kotak"
+        android:layout_marginTop="23dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/lokergambar"
+            android:layout_margin="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Tutorial Smart Loker Service"
+                android:textAlignment="textEnd"
+                android:textColor="@color/BlackBlue"
+                android:textSize="13sp"
+                android:layout_gravity="end"/>
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold"
+                android:text="Cara menggunakan dan melakukan membayar di Smart Loker Service"
+                android:textAlignment="textEnd"
+                android:textColor="@color/Gray"
+                android:textSize="13sp"
+                android:layout_gravity="end"/>
+
+            <Button
+                android:id="@+id/btn_tutorial"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end|bottom"
+                android:layout_margin="8dp"
+                android:background="@drawable/buttonlihat"
+                android:text="Lihat"
+                android:textAlignment="center"
+                android:textColor="@color/LightGray"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_view_bg"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        app:queryHint="Search Location . . ."
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_loker_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        />
+
+</LinearLayout>

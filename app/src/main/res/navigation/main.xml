@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    app:startDestination="@id/menuHome">
+
+    <fragment
+        android:id="@+id/menuHome"
+        android:name="com.example.smartlokerservicejavabetaver.Home"
+        android:label="Smart Loker Service"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/menuTentang"
+        android:name="com.example.smartlokerservicejavabetaver.Tentang"
+        android:label="About Us"
+        tools:layout="@layout/fragment_tentang" />
+    <fragment
+        android:id="@+id/menuArtikel"
+        android:name="com.example.smartlokerservicejavabetaver.ReferanceArtikel"
+        android:label="Referensi Artikel"
+        tools:layout="@layout/fragment_referance_artikel" />
+</navigation>

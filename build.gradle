@@ -1,0 +1,38 @@
+
+buildscript {
+//    ext.kotlin_version = '1.6.10'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.google.gms:google-services:4.3.15'
+        classpath 'com.android.tools.build:gradle:8.0.2'
+    }
+}// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://dl.bintray.com/pt-midtrans/maven" }
+        maven { url "https://jitpack.io" }
+        maven {
+            url 'https://dl.google.com/dl/android/maven2'
+        }
+
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+
+    }
+}
+//plugins {
+//    id 'com.android.application' version '7.4.2' apply false
+//    id 'com.android.library' version '7.4.2' apply false
+//}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+

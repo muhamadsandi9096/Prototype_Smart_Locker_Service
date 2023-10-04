@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Smart Loker Service</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="isiaboutus1"><b>Aplikasi SanS Smart Loker Service</b> merupakan aplikasi Smart Loker Service yang dibuat khusus untuk membantu dalam perancangan proyek <u>Penulisan Skripsi</u>. Aplikasi ini dirancang dan dibuat oleh <b>Muhamad Sandi Hidayat</b> (23119942) salah satu mahasiswa Jurusan Sistem Komputer, Fakultas Ilmu Komputer dan Teknologi Informasi, Universitas Gunadarma.</string>
+    <string name="isiaboutus2"><b>Fitur  SanS Smart Loker Service\n </b></string>
+    <string name="isiaboutus3"><p>Dapat mengetahui kondisi ketersedian loker penyimpanan secara Real Time pada proyek Penulisan Skripsi.\n</p>
+<p>Dapat melakukan pembayaran secara online.\n</p></string>
+</resources>
